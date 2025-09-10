@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#decision-tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.node {
+    background-color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.node:hover {
+    transform: scale(1.05);
+}
+
+.branch {
+    width: 2px;
+    background-color: #007bff;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.final-node {
+    background-color: #28a745;
+    color: white;
+}
+
+.final-node.died {
+    background-color: #dc3545;
+}
+
+.animation {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

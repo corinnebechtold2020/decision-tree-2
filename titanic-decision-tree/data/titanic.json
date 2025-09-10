@@ -1,0 +1,69 @@
+{
+  "passengers": [
+    {
+      "PassengerId": 1,
+      "Name": "John Doe",
+      "Sex": "male",
+      "Age": 22,
+      "SibSp": 1,
+      "Parch": 0,
+      "Ticket": "A/5 21171",
+      "Fare": 7.25,
+      "Cabin": "",
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "PassengerId": 2,
+      "Name": "Jane Smith",
+      "Sex": "female",
+      "Age": 38,
+      "SibSp": 1,
+      "Parch": 0,
+      "Ticket": "PC 17599",
+      "Fare": 71.2833,
+      "Cabin": "C85",
+      "Embarked": "C",
+      "Survived": 1
+    },
+    {
+      "PassengerId": 3,
+      "Name": "Alice Johnson",
+      "Sex": "female",
+      "Age": 26,
+      "SibSp": 0,
+      "Parch": 0,
+      "Ticket": "113803",
+      "Fare": 53.1,
+      "Cabin": "C123",
+      "Embarked": "S",
+      "Survived": 1
+    },
+    {
+      "PassengerId": 4,
+      "Name": "Bob Brown",
+      "Sex": "male",
+      "Age": 35,
+      "SibSp": 0,
+      "Parch": 0,
+      "Ticket": "373450",
+      "Fare": 8.05,
+      "Cabin": "",
+      "Embarked": "S",
+      "Survived": 0
+    },
+    {
+      "PassengerId": 5,
+      "Name": "Emily Davis",
+      "Sex": "female",
+      "Age": 29,
+      "SibSp": 0,
+      "Parch": 0,
+      "Ticket": "A/5 21171",
+      "Fare": 7.25,
+      "Cabin": "",
+      "Embarked": "S",
+      "Survived": 0
+    }
+  ]
+}
